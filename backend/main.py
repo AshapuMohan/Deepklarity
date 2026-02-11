@@ -7,8 +7,8 @@ import os
 env_path = Path(__file__).parent / '.env'
 load_dotenv(dotenv_path=env_path)
 
-from backend.database import engine, Base
-from backend.routers import quiz
+from database import engine, Base
+from routers import quiz
 
 # Create tables
 Base.metadata.create_all(bind=engine)

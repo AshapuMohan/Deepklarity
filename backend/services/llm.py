@@ -1,7 +1,7 @@
 import os
 import json
 import requests
-from backend.schemas import QuizBase
+from schemas import QuizBase
 
 def generate_quiz(text: str, url: str) -> dict:
     

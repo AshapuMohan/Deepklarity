@@ -1,10 +1,10 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 from typing import List
-from backend.database import get_db
-from backend.models import Quiz, Question, Entity, Section
-from backend.schemas import QuizCreate, QuizResponse, QuizList
-from backend.services import scraper, llm
+from database import get_db
+from models import Quiz, Question, Entity, Section
+from schemas import QuizCreate, QuizResponse, QuizList
+from services import scraper, llm
 
 router = APIRouter(
     prefix="/api/quiz",
