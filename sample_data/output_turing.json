@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://en.wikipedia.org/wiki/Alan_Turing",
+    "title": "Alan Turing",
+    "summary": "Alan Mathison Turing OBE FRS (23 June 1912 – 7 June 1954) was an English mathematician, computer scientist, logician, cryptanalyst, philosopher, and theoretical biologist. Turing was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer. He is widely considered to be the father of theoretical computer science and artificial intelligence.",
+    "key_entities": {
+      "people": [
+        "Alan Turing",
+        "Alonzo Church",
+        "Winston Churchill"
+      ],
+      "organizations": [
+        "University of Cambridge",
+        "Government Code and Cypher School",
+        "National Physical Laboratory"
+      ],
+      "locations": [
+        "United Kingdom",
+        "Bletchley Park",
+        "Wilmslow"
+      ]
+    },
+    "sections": [
+        "Early life and education",
+        "Career and research",
+        "Personal life",
+        "Death"
+    ],
+    "quiz": [
+      {
+        "question": "What is Alan Turing widely considered to be the father of?",
+        "options": [
+          "Modern physics",
+          "Theoretical computer science and artificial intelligence",
+          "Quantum mechanics",
+          "Cryptography"
+        ],
+        "answer": "Theoretical computer science and artificial intelligence",
+        "difficulty": "easy",
+        "explanation": "Mentioned in the summary/introduction section."
+      },
+      {
+        "question": "Where did Turing work during the Second World War?",
+        "options": [
+          "MI6",
+          "Bletchley Park",
+          "Detectives",
+          "NASA"
+        ],
+        "answer": "Bletchley Park",
+        "difficulty": "medium",
+        "explanation": "Detailed in the 'Career and research' section."
+      }
+    ],
+    "related_topics": [
+      "Enigma machine",
+      "Turing test",
+      "Artificial intelligence"
+    ]
+  }
+]
